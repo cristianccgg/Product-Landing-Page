@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Producct Landing Page</title>
     <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
     <main>
@@ -12,9 +13,9 @@
             <div class="image-title">
                 <img class='logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Takamine_guitar_logo.svg/1280px-Takamine_guitar_logo.svg.png'></img>
             </div>
-            <nav id='nav-bar' >
-                <a class='nav-link' href='#Features'>Features</a>
-                <a class='nav-link' href='#video'>How they sound</a>
+            <nav id='nav' class="nav-bar">
+                <a class='nav-link' href='#features'>Features</a>
+                <a class='nav-link' href='#video'>Video</a>
                 <a class='nav-link' href='#pricing'>Pricing</a>
             </nav>
         </header>
@@ -27,19 +28,29 @@
                 <input id='submit' type='submit'>
                     </input>
             </div>
-            <div class="features-container">
-                <div>
-                    <h1>Premium Materials</h1>
-                    <p>Our guitars use the highest quality wood. This will increase the longevity of your purchase.</p>
+            <div id="features" class="features-container">
+                <div class="icon-text">
+                    <img class="icon" src="/Icons/fire-solid.svg" alt="icon">
+                    <div class="text">
+                            <h1>Premium Materials</h1>
+                            <p>Our guitars use the highest quality wood. This will increase the longevity of your purchase.</p>
+                    </div>
                 </div>
-                <div>
-                    <h1>Fast Shipping</h1>
-                    <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>                </div>
+                <div class="icon-text">
+                    <img class="icon" src="/Icons/truck-fast-solid.svg" alt="icon">
+                    <div class="text">
+                        <h1>Fast Shipping</h1>
+                        <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+                    </div>
                 </div>
-                <div>
-                    <h1>Quality Assurance</h1>
-                    <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+                <div class="icon-text">
+                    <img class="icon" src="/Icons/star-solid.svg" alt="icon">
+                    <div class="text">
+                        <h1>Quality Assurance</h1>
+                        <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+                    </div>
                 </div>
+            </div>
             <div id="video" class='video-container' >
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/C67Xn4XLZJ0?si=njFiPy3YVI0hUlT6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
@@ -73,8 +84,3 @@
     </main>
 </body>
 </html>
-  
-  
-  <!-- @media {max-width:1199px;}
-  
-  #nav-bar{position:fixed;} -->
